@@ -1,10 +1,10 @@
-package com.example.finalprojectapi.repository
+package com.example.finalprojectapi.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.finalprojectapi.entities.Question
+import com.example.finalprojectapi.data.model.Question
 
 @Dao
 interface QuestionDao {

@@ -1,6 +1,6 @@
 package com.example.finalprojectapi.data
 
-import com.example.finalprojectapi.entities.Category
+import com.example.finalprojectapi.data.model.Category
 import com.google.gson.annotations.SerializedName
 
 data class CategoryResponse(

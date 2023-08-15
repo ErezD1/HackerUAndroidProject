@@ -1,9 +1,11 @@
-package com.example.finalprojectapi.repository
+package com.example.finalprojectapi.data.repository
 
-import com.example.finalprojectapi.entities.Category
-import com.example.finalprojectapi.entities.Question
+import com.example.finalprojectapi.data.model.Category
+import com.example.finalprojectapi.data.model.Question
 import com.example.finalprojectapi.entities.ApiClient
 import com.example.finalprojectapi.api.TriviaApiService
+import com.example.finalprojectapi.dao.CategoryDao
+import com.example.finalprojectapi.dao.QuestionDao
 import javax.inject.Inject
 
 class TriviaRepository @Inject constructor(

@@ -1,4 +1,4 @@
-package com.example.finalprojectapi.entities
+package com.example.finalprojectapi.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

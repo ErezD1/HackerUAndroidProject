@@ -6,8 +6,10 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.example.finalprojectapi.converter.Converters
-import com.example.finalprojectapi.repository.CategoryDao
-import com.example.finalprojectapi.repository.QuestionDao
+import com.example.finalprojectapi.data.model.Category
+import com.example.finalprojectapi.data.model.Question
+import com.example.finalprojectapi.dao.CategoryDao
+import com.example.finalprojectapi.dao.QuestionDao
 
 @Database(entities = [Category::class, Question::class], version = 2, exportSchema = false)
 @TypeConverters(Converters::class)

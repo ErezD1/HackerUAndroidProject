@@ -2,8 +2,8 @@ package com.example.finalprojectapi.di
 
 import android.content.Context
 import com.example.finalprojectapi.entities.TriviaDatabase
-import com.example.finalprojectapi.repository.CategoryDao
-import com.example.finalprojectapi.repository.QuestionDao
+import com.example.finalprojectapi.dao.CategoryDao
+import com.example.finalprojectapi.dao.QuestionDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

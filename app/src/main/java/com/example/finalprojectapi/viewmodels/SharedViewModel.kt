@@ -1,10 +1,7 @@
 package com.example.finalprojectapi.viewmodels
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.finalprojectapi.entities.Category
-import com.example.finalprojectapi.repository.TriviaRepository
 import javax.inject.Inject
 
 class SharedViewModel @Inject constructor() : ViewModel() {

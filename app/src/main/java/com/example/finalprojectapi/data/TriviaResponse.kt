@@ -1,6 +1,6 @@
 package com.example.finalprojectapi.data
 
-import com.example.finalprojectapi.entities.Question
+import com.example.finalprojectapi.data.model.Question
 import com.google.gson.annotations.SerializedName
 
 data class TriviaResponse(

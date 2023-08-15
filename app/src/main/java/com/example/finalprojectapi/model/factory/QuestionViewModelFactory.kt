@@ -2,7 +2,7 @@ package com.example.finalprojectapi.model.factory
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.finalprojectapi.repository.TriviaRepository
+import com.example.finalprojectapi.data.repository.TriviaRepository
 import com.example.finalprojectapi.ui.question.QuestionViewModel
 
 @Suppress("UNCHECKED_CAST")

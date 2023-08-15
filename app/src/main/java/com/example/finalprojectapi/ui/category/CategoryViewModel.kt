@@ -1,40 +1,28 @@
-import androidx.lifecycle.LiveData
+package com.example.finalprojectapi.ui.category
+
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.finalprojectapi.repository.TriviaRepository
+import com.example.finalprojectapi.data.repository.TriviaRepository
 import kotlinx.coroutines.launch
-import javax.inject.Inject
 
-class CategoryViewModel @Inject constructor(private val repository: TriviaRepository) : ViewModel() {
+class CategoryViewModel(
+    private val triviaRepository: TriviaRepository
+) : ViewModel() {
 
-    private val _categoriesLiveData = MutableLiveData<List<String>>()
-    val categoriesLiveData: LiveData<List<String>> get() = _categoriesLiveData
-    val categories: LiveData<List<String>> = TriviaRepository().fetchAllCategories()
+    val categoriesList = MutableLiveData<List<String>>()
+    private val _selectedCategory = MutableLiveData<String>()
+    val selectedCategory: String
+        get() = _selectedCategory.value ?: ""
 
-    init {
-        fetchCategoriesFromAPI()
-    }
-
-    fun getCategories() {
+    fun fetchCategories() {
         viewModelScope.launch {
-            try {
-                val result = repository.fetchCategories()
-                if (result.isSuccessful) {
-                    categories.postValue(result.body()?.categories)
-                } else {
-                    errorMessage.postValue(result.message())
-                }
-            } catch (e: Exception) {
-                errorMessage.postValue(e.localizedMessage)
-            }
+            val categories = triviaRepository.fetchAllCategories()
+            categoriesList.value = categories.map { it.name }
         }
     }
 
-    private fun fetchCategoriesFromAPI() {
-        viewModelScope.launch {
-            val categories = repository.fetchAllCategories().map { it.name }
-            _categoriesLiveData.postValue(categories)
-        }
+    fun setSelectedCategory(category: String) {
+        _selectedCategory.value = category
     }
 }

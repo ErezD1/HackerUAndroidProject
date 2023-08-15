@@ -4,8 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.finalprojectapi.entities.Question
-import com.example.finalprojectapi.repository.TriviaRepository
+import com.example.finalprojectapi.data.model.Question
+import com.example.finalprojectapi.data.repository.TriviaRepository
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import kotlinx.coroutines.launch
