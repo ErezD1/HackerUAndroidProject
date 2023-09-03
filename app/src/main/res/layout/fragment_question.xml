@@ -1,0 +1,103 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="sharedViewModel"
+            type="com.example.finalprojectapi.ui.viewmodels.SharedViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+    <!-- TextView for displaying the difficulty -->
+    <TextView
+        android:id="@+id/tv_difficulty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Difficulty will appear here" />
+
+    <!-- TextView for displaying the question index -->
+    <TextView
+        android:id="@+id/tv_question_index"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_difficulty"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Question index will appear here" />
+
+    <!-- TextView for displaying the question text -->
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:textSize="20sp"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_question_index"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Question will appear here" />
+
+    <!-- GridLayout for displaying answer choices -->
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_question">
+
+            <RadioButton
+                android:id="@+id/rb_choice1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:text="Choice Placeholder" />
+
+            <RadioButton
+                android:id="@+id/rb_choice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:text="Choice Placeholder" />
+
+            <RadioButton
+                android:id="@+id/rb_choice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:text="Choice Placeholder" />
+
+            <RadioButton
+                android:id="@+id/rb_choice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:text="Choice Placeholder" />
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

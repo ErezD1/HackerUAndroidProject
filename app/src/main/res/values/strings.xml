@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FinalProjectApi</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_result">Result</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="select_category">Select Category</string>
+    <string name="select">Select</string>
+    <string name="title_category">Category</string>
+    <string name="category">Category</string>
+    <string name="Category">Category</string>
+    <string name="title_start_page">Welcome</string>
+    <string name="custom_toast">Custom Toast</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="mixed">Mixed Difficulty</string>
+    <string name="question_info">Difficulty: %1$s | Question: %2$d of %3$d</string>
+    <string name="submit_answer">Submit</string>
+    <string name="question_placeholder">Placeholder text for question</string>
+    <string name="choice_placeholder">Placeholder text for answer choice</string>
+</resources>
