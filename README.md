@@ -22,17 +22,6 @@ Room database for local data storage.
 Retrofit for networking and API communication.
 OkHttp Logging Interceptor for API request logging.
 Picasso and Glide for image loading and display.
-Installation
-To run the Trivia App on your local machine, follow these steps:
-
-Clone this repository to your computer using Git.
-
-bash
-Copy code
-git clone https://github.com/your-username/trivia-app.git
-Open the project in Android Studio.
-
-Build and run the app on an emulator or a physical device.
 
 Usage
 Launch the Trivia App on your Android device.
