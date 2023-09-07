@@ -10,7 +10,7 @@
     import com.example.finalprojectapi.model.Question
     import com.example.finalprojectapi.model.ScoreBoard
     import com.example.finalprojectapi.network.ApiService
-    import javax.inject.Injectd
+    import javax.inject.Inject
 
     class TriviaRepository @Inject constructor(
         private val apiService: ApiService,
