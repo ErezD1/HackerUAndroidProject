@@ -14,14 +14,12 @@
         android:elevation="4dp"
         android:backgroundTint="#C2BBBB"
         app:cardCornerRadius="8dp">
-
-
+        app:cardCornerRadius="8dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp">
-
 
             <ImageView
                 android:id="@+id/category_image"
@@ -41,6 +39,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </layout>
