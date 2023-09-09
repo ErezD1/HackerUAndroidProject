@@ -34,21 +34,53 @@
 
 The project is an Android application for a trivia game. It allows users to select categories, answer questions of different difficulties, and view their scores on a scoreboard. The application uses an API to fetch trivia questions and stores them locally in a Room database. It also includes features like data binding, dependency injection with Dagger Hilt, and navigation components for a seamless user experience. Overall, the project provides an engaging trivia game experience for users on the Android platform.
 
+## Screenshots
+
+## 📍 Overview
+
+The project is an Android application for a trivia game. It allows users to select categories, answer questions of different difficulties, and view their scores on a scoreboard. The application uses an API to fetch trivia questions and stores them locally in a Room database. It also includes features like data binding, dependency injection with Dagger Hilt, and navigation components for a seamless user experience. Overall, the project provides an engaging trivia game experience for users on the Android platform.
+
+## Screenshots
+
+### Welcome and Category Fragments
+
+<p float="left">
+  <img src="https://private-user-images.githubusercontent.com/106685151/266777626-f9f2eb9d-cfb4-434d-bd05-914b14818a6e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjI2LWY5ZjJlYjlkLWNmYjQtNDM0ZC1iZDA1LTkxNGIxNDgxOGE2ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mMzEzNTg1MGYyNTFkNzdiNjViNmEzY2FmMjFkODg5NGRjMmJjYzMzZjM5Yzc4NGQ0OGU5MzI0YWNkNmUzNTA0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.SgelG3T5p5pGGamidiDL2tXdU97yZw_dx0GNkl6hgeE" width="250" />
+  <img src="https://private-user-images.githubusercontent.com/106685151/266777619-afb309ca-8a8c-42cd-8e22-4e570bb212b8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjE5LWFmYjMwOWNhLThhOGMtNDJjZC04ZTIyLTRlNTcwYmIyMTJiOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MmRkMDU4ZjNkNmZmNGE0ZDcxZDk3ODk0NzFjZDZmMTc2ZDYxMWYwZWUyYzhmYjZiZWRlODM4OGVjNGUwNDFhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.nULcbmTAmuunAXisNxHPd30bthXT3Ev-24lldo75er0" width="250" /> 
+</p>
+
+### Difficulty and Question Fragments
+
+<p float="left">
+  <img src="https://private-user-images.githubusercontent.com/106685151/266777623-f057b64e-e2f0-44cf-bd21-e6ef3ae2cf66.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjIzLWYwNTdiNjRlLWUyZjAtNDRjZi1iZDIxLWU2ZWYzYWUyY2Y2Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NzE2ZTNjZGFiMGU2MDBiODUzNjU0MGYxZjhiYWVhMWI1YzViN2I1MTRhMTVmZTQwMzQ0YTI4ZWFiYTRiMDYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Ww1RMql62ABXzgLCKjUuQSeblK6lV71T58hW7SGHd3k" width="250" />
+  <img src="https://private-user-images.githubusercontent.com/106685151/266777624-1e573fac-5529-4a2b-99b1-a27c7a811b21.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjI0LTFlNTczZmFjLTU1MjktNGEyYi05OWIxLWEyN2M3YTgxMWIyMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMjgzY2NlOWNhNjZmMmU4MGQyYTlkNjg3OGQ0NDNmZGI0YjQzMGU0ZTliZDM1Njc3NGZlOTFmNTVhNGZiZGRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.vF3-fD6BBrXeCXO1sC34QdP7lhheSXCf0ujGxG-ujaM" width="250" /> 
+</p>
+
+### Scoreboard/Result Fragment and Clear Scoreboard Function
+
+<p float="left">
+  <img src="https://private-user-images.githubusercontent.com/106685151/266777625-36fa7a3d-e8e4-41e8-a4f2-602fc41e71df.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjI1LTM2ZmE3YTNkLWU4ZTQtNDFlOC1hNGYyLTYwMmZjNDFlNzFkZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZDE4NWI3MDIyYTMzYzIxMWMyOGZiMDIyMmVhMjg2MGMwMGY5ZWE0ZDc1OTQyZTdlNmFjYWZmZmEyZTA0MDQxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7n9EblvAlZ7aw0Z7Cpzw_BnaZmz6eTFeeN-V8u2yEls" width="250" />
+  <img src="https://private-user-images.githubusercontent.com/106685151/266777621-e2302304-de89-439b-961b-8e4d15831675.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjIxLWUyMzAyMzA0LWRlODktNDM5Yi05NjFiLThlNGQxNTgzMTY3NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNzExYWJiMmRhODhmYjA2NjY5MDc0Nzc5ZDgzOTdhNzYxMDUzMTRjYmFlZDk5ODlmNTMyNDJlZTZmMzE3M2JhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.dFB4rU86sIT6Cn9Hz_sE3Bf9dA-qxHSigrgF-eAfHrY" width="250" /> 
+</p>
+
 ---
 
 ## ⚙️ Features
 
-| Feature                | Description                           |
-| ---------------------- | ------------------------------------- |
-| **⚙️ Architecture**     | The codebase follows the Single Activity and ViewModel architecture pattern, separating UI logic from underlying data and business logic. The use of Kotlin, Dagger Hilt, and Room database provides a clear separation of concerns, promoting maintainability and reusability.|
-| **📖 Documentation**   | |
-| **🔗 Dependencies**    | The codebase relies on several widely-used libraries and technologies such as AndroidX, Kotlin coroutines, Dagger Hilt, Retrofit, Room database, Glide, Picasso, and Navigation. These dependencies enhance development speed, modularity, and performance, while also providing powerful functionalities out-of-the-box.|
-| **🧩 Modularity**      | The codebase is well-structured, employing many modular components like adapters, DAOs, models, fragments, and view models. Each component serves specific purposes, making the codebase easier to understand, maintain, and test. The use of Dagger Hilt for dependency injection further enhances modularity by decoupling dependencies and improving testability.|
-| **⚡️ Performance**      | The system's performance relies on efficient technologies like Kotlin coroutines, Room database, and Retrofit. The codebase appears well-optimized, using asynchronous operations where necessary to avoid blocking the UI thread. However, proper profiling and performance testing should be conducted to ensure optimal performance under various conditions and devices.|
+| Feature                                 | Description                                                                                                              |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **🏗️ Architecture**                     | The codebase follows the Single Activity and ViewModel architecture pattern, separating UI logic from underlying data and business logic. The use of Kotlin, Dagger Hilt, and Room database provides a clear separation of concerns, promoting maintainability and reusability. |
+| **📚 Documentation**                     | Comprehensive documentation is available, including inline comments and external documentation, to help understand the codebase. |
+| **🔩 Dependencies**                      | The codebase relies on several widely-used libraries and technologies such as AndroidX, Kotlin coroutines, Dagger Hilt, Retrofit, Room database, Glide, Picasso, and Navigation. These dependencies enhance development speed, modularity, and performance, while also providing powerful functionalities out-of-the-box. |
+| **🧰 Modularity**                        | The codebase is well-structured, employing many modular components like adapters, DAOs, models, fragments, and view models. Each component serves specific purposes, making the codebase easier to understand, maintain, and test. The use of Dagger Hilt for dependency injection further enhances modularity by decoupling dependencies and improving testability. |
+| **🚀 Performance**                       | The system's performance relies on efficient technologies like Kotlin coroutines, Room database, and Retrofit. The codebase appears well-optimized, using asynchronous operations where necessary to avoid blocking the UI thread. However, proper profiling and performance testing should be conducted to ensure optimal performance under various conditions and devices. |
+| **📚 Category-based Questions**          | The app offers trivia questions from various categories like Science, History, and General Knowledge. Each category is represented by a unique icon for better visualization. The categories are also available offline thanks to local caching. |
+| **🔢 Multiple Difficulty Levels**        | Users can choose questions based on their preferred difficulty level: Easy, Medium, Hard and Mixed. |
 
 ---
 
 ## 📂 Project Structure
+
 <details closed>
 <summary>Structure</summary>
   
@@ -190,6 +222,7 @@ HackerUAndroidProject
 ├─ gradlew.bat
 └─ README.md
 ```
+
 </details>
 
 ---
@@ -227,6 +260,130 @@ HackerUAndroidProject
 | [SharedViewModel.kt](https://github.com/ErezD1/HackerUAndroidProject/blob/main/app\src\main\java\com\example\finalprojectapi\ui\viewmodels\SharedViewModel.kt)          | The code defines a `ViewModel` class that acts as a bridge between the UI and the data sources. It contains various `LiveData` objects to store the state of the app, such as categories, difficulties, selected category, selected difficulty, questions list, question index, score, and user name. The `ViewModel` also interacts with `sharedPreferences` and a repository to fetch and update data. It provides methods to handle user actions like updating the user name, selecting a category and difficulty, starting a new quiz, checking answers, saving the score, and clearing the scoreboard. Additionally, it has error message handling and ensures the score is not saved multiple times. |
 
 </details>
+
+---
+
+## 📦 Dependencies and Installation
+
+This project utilizes a number of powerful libraries and frameworks to make development easier and faster. Below are some of the key dependencies
+Please note that the Project is running using `Sdk 34` and `Java version 17`.:
+
+### Core Libraries
+
+- **AndroidX**: Core libraries for Android development. [Official Documentation](https://developer.android.com/jetpack/androidx)
+
+  ```gradle
+  implementation 'androidx.core:core-ktx:1.10.1'
+  implementation 'androidx.appcompat:appcompat:1.6.1'
+  implementation 'com.google.android.material:material:1.9.0'
+  implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+  ```
+
+### Navigation
+
+- **Android Navigation**: For fragment and activity navigation. [Official Documentation](https://developer.android.com/guide/navigation)
+
+  ```gradle
+  implementation 'androidx.navigation:navigation-fragment-ktx:2.7.1'
+  implementation 'androidx.navigation:navigation-ui-ktx:2.7.1'
+  ```
+
+### ViewModel and LiveData
+
+- **ViewModel and LiveData**: For managing UI-related data. [Official Documentation](https://developer.android.com/topic/libraries/architecture/viewmodel)
+
+  ```gradle
+  implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+  implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.1'
+  ```
+
+### Coroutines
+
+- **Kotlin Coroutines**: For asynchronous programming. [Official Documentation](https://kotlinlang.org/docs/coroutines-overview.html)
+
+  ```gradle
+  implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
+  ```
+
+### Dependency Injection
+
+- **Hilt**: For Dependency Injection. [Official Documentation](https://dagger.dev/hilt/)
+
+  ```gradle
+  implementation 'com.google.dagger:hilt-android:2.47'
+  kapt 'com.google.dagger:hilt-compiler:2.47'
+  ```
+
+### Databases
+
+- **Room Database**: For local database storage. [Official Documentation](https://developer.android.com/training/data-storage/room)
+
+  ```gradle
+  implementation 'androidx.room:room-runtime:2.6.0-alpha03'
+  implementation 'androidx.room:room-paging:2.6.0-alpha03'
+  implementation 'androidx.room:room-ktx:2.6.0-alpha03'
+  kapt 'androidx.room:room-compiler:2.6.0-alpha03'
+  ```
+
+### Networking
+
+- **Retrofit**: For making API calls. [Official Documentation](https://square.github.io/retrofit/)
+
+  ```gradle
+  implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+  implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+  ```
+
+- **OkHttp Logging Interceptor**: For logging network requests and responses. [Official Documentation](https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor)
+
+  ```gradle
+  implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+  ```
+
+### Image Loading
+
+- **Picasso**: For image loading and caching. [Official Documentation](https://square.github.io/picasso/)
+
+  ```gradle
+  implementation 'com.squareup.picasso:picasso:2.71828'
+  ```
+  
+- **Glide**: An alternative for image loading. [Official Documentation](https://bumptech.github.io/glide/)
+
+  ```gradle
+  implementation 'com.github.bumptech.glide:glide:4.16.0'
+  ```
+
+### Testing
+
+- **JUnit**: For unit testing. [Official Documentation](https://junit.org/junit4/)
+
+  ```gradle
+  testImplementation 'junit:junit:4.13.2'
+  ```
+
+- **Espresso**: For UI testing. [Official Documentation](https://developer.android.com/training/testing/espresso)
+
+  ```gradle
+  androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+  androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+  ```
+
+### Installation
+
+1. **Clone the Repository**: Clone this repository to your local machine to get started.
+
+    ```bash
+    git clone https://github.com/ErezD1/HackerUAndroidProject
+    ```
+
+2. **Open in Android Studio**: Open the cloned repository in Android Studio.
+
+3. **Sync Gradle**: Let Android Studio sync the project, which will download the required dependencies.
+
+4. **Build and Run**: Once the Gradle sync is complete, build the project and run it on an Android device or an emulator.
+
+For additional setup or troubleshooting, refer to the documentation for each dependency.
 
 ---
 
