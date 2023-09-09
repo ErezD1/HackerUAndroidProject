@@ -246,7 +246,7 @@ This project is licensed under the `ℹ️  INSERT-LICENSE-TYPE` License. See th
 
 ## 👏 Acknowledgments
 
-> - `ℹ️  Thanks  https://opentdb.com/ for the API usage.`
-> - `ℹ️  Thanks  https://icons8.com/ for the Icons used .`
+> - ℹ️  Thanks [OpenTDB](https://opentdb.com/) for the API usage.
+> - ℹ️  Thanks [Icons8](https://icons8.com/) for the Icons used.
 
 ---
