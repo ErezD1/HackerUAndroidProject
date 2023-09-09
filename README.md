@@ -49,7 +49,9 @@ The project is an Android application for a trivia game. It allows users to sele
 ---
 
 ## 📂 Project Structure
-
+<details closed>
+<summary>Structure</summary>
+  
 ```Kotlin
 HackerUAndroidProject
 ├─ app
@@ -188,6 +190,7 @@ HackerUAndroidProject
 ├─ gradlew.bat
 └─ README.md
 ```
+</details>
 
 ---
 
