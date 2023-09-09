@@ -48,7 +48,7 @@
     <fragment
         android:id="@+id/welcomeFragment"
         android:name="com.example.finalprojectapi.ui.start.WelcomeFragment"
-        android:label="fragment_welcome"
+        android:label="WelcomeFragment"
         tools:layout="@layout/fragment_welcome" >
     <action
         android:id="@+id/action_welcomeFragment_to_categoryFragment"
