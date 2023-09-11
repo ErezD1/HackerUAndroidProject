@@ -42,11 +42,19 @@ The project is an Android application for a trivia game. It allows users to sele
 
 ## Screenshots
 
+https://ibb.co/Q693VJw
+https://ibb.co/fqMcxzQ
+https://ibb.co/3kFGhVC
+https://ibb.co/TtJmTTs
+https://ibb.co/6ZhPnPy
+https://ibb.co/K2SMsQK
+
+
 ### Welcome and Category Fragments
 
 <p float="left">
-  <img src="[https://private-user-images.githubusercontent.com/106685151/266777626-f9f2eb9d-cfb4-434d-bd05-914b14818a6e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjI2LWY5ZjJlYjlkLWNmYjQtNDM0ZC1iZDA1LTkxNGIxNDgxOGE2ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mMzEzNTg1MGYyNTFkNzdiNjViNmEzY2FmMjFkODg5NGRjMmJjYzMzZjM5Yzc4NGQ0OGU5MzI0YWNkNmUzNTA0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.SgelG3T5p5pGGamidiDL2tXdU97yZw_dx0GNkl6hgeE](https://github.com/ErezD1/HackerUAndroidProject/blob/main/app/src/main/res/drawable/welcomefragment.png)" width="250" />
-  <img src="[https://private-user-images.githubusercontent.com/106685151/266777619-afb309ca-8a8c-42cd-8e22-4e570bb212b8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjE5LWFmYjMwOWNhLThhOGMtNDJjZC04ZTIyLTRlNTcwYmIyMTJiOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MmRkMDU4ZjNkNmZmNGE0ZDcxZDk3ODk0NzFjZDZmMTc2ZDYxMWYwZWUyYzhmYjZiZWRlODM4OGVjNGUwNDFhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.nULcbmTAmuunAXisNxHPd30bthXT3Ev-24lldo75er0](https://github.com/ErezD1/HackerUAndroidProject/blob/main/app/src/main/res/drawable/categoryfragment.png)" width="250" /> 
+  <img src="https://github.com/ErezD1/HackerUAndroidProject/blob/main/app/src/main/res/drawable/welcomefragment.png" width="250" />
+  <img src="https://github.com/ErezD1/HackerUAndroidProject/blob/main/app/src/main/res/drawable/categoryfragment.png" width="250" /> 
 </p>
 
 ### Difficulty and Question Fragments
