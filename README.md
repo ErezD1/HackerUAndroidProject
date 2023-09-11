@@ -42,14 +42,6 @@ The project is an Android application for a trivia game. It allows users to sele
 
 ## Screenshots
 
-https://ibb.co/Q693VJw
-https://ibb.co/fqMcxzQ
-https://ibb.co/3kFGhVC
-https://ibb.co/TtJmTTs
-https://ibb.co/6ZhPnPy
-https://ibb.co/K2SMsQK
-
-
 ### Welcome and Category Fragments
 
 <p float="left">
@@ -60,15 +52,15 @@ https://ibb.co/K2SMsQK
 ### Difficulty and Question Fragments
 
 <p float="left">
-  <img src="https://private-user-images.githubusercontent.com/106685151/266777623-f057b64e-e2f0-44cf-bd21-e6ef3ae2cf66.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjIzLWYwNTdiNjRlLWUyZjAtNDRjZi1iZDIxLWU2ZWYzYWUyY2Y2Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NzE2ZTNjZGFiMGU2MDBiODUzNjU0MGYxZjhiYWVhMWI1YzViN2I1MTRhMTVmZTQwMzQ0YTI4ZWFiYTRiMDYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Ww1RMql62ABXzgLCKjUuQSeblK6lV71T58hW7SGHd3k" width="250" />
-  <img src="https://private-user-images.githubusercontent.com/106685151/266777624-1e573fac-5529-4a2b-99b1-a27c7a811b21.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjI0LTFlNTczZmFjLTU1MjktNGEyYi05OWIxLWEyN2M3YTgxMWIyMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMjgzY2NlOWNhNjZmMmU4MGQyYTlkNjg3OGQ0NDNmZGI0YjQzMGU0ZTliZDM1Njc3NGZlOTFmNTVhNGZiZGRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.vF3-fD6BBrXeCXO1sC34QdP7lhheSXCf0ujGxG-ujaM" width="250" /> 
+  <img src="https://github.com/ErezD1/HackerUAndroidProject/blob/main/app/src/main/res/drawable/difficultyfragment.png" width="250" />
+  <img src="https://github.com/ErezD1/HackerUAndroidProject/blob/main/app/src/main/res/drawable/questionfragment.png" width="250" /> 
 </p>
 
 ### Scoreboard/Result Fragment and Clear Scoreboard Function
 
 <p float="left">
-  <img src="https://private-user-images.githubusercontent.com/106685151/266777625-36fa7a3d-e8e4-41e8-a4f2-602fc41e71df.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjI1LTM2ZmE3YTNkLWU4ZTQtNDFlOC1hNGYyLTYwMmZjNDFlNzFkZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZDE4NWI3MDIyYTMzYzIxMWMyOGZiMDIyMmVhMjg2MGMwMGY5ZWE0ZDc1OTQyZTdlNmFjYWZmZmEyZTA0MDQxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7n9EblvAlZ7aw0Z7Cpzw_BnaZmz6eTFeeN-V8u2yEls" width="250" />
-  <img src="https://private-user-images.githubusercontent.com/106685151/266777621-e2302304-de89-439b-961b-8e4d15831675.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQyNTkwODEsIm5iZiI6MTY5NDI1ODc4MSwicGF0aCI6Ii8xMDY2ODUxNTEvMjY2Nzc3NjIxLWUyMzAyMzA0LWRlODktNDM5Yi05NjFiLThlNGQxNTgzMTY3NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkwOVQxMTI2MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNzExYWJiMmRhODhmYjA2NjY5MDc0Nzc5ZDgzOTdhNzYxMDUzMTRjYmFlZDk5ODlmNTMyNDJlZTZmMzE3M2JhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.dFB4rU86sIT6Cn9Hz_sE3Bf9dA-qxHSigrgF-eAfHrY" width="250" /> 
+  <img src="https://github.com/ErezD1/HackerUAndroidProject/blob/main/app/src/main/res/drawable/resultfragment.png" width="250" />
+  <img src="https://github.com/ErezD1/HackerUAndroidProject/blob/main/app/src/main/res/drawable/clearscoreboard.png" width="250" /> 
 </p>
 
 ---
